@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #2980b9;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 800px;
+    max-width: 100%;
+    margin: auto;
+    background: #3498db;
+    padding: 3em;
+    color: #fff;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
+}
+.icon-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0;
+}
+.weather-today{
+    text-align: center;
+}
+.temp{
+    display: block;
+    font-size: 5rem;
+}
+.icon-big img{
+    width: 50px;
+}
+.icon-description{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.other-data span{
+    font-weight: 700;
+}
+.current-weather span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+hr{
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin: 20px 0;
+}
+.single-day{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.single-day div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.single-day sup{
+    font-size: 10px;
+}
+.single-day .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sp-head{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: block;
+}
+.single-day .sp-temp{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+.single-day .date{
+    font-size: 10px;
+}
+.spk{
+    height: 300px;
+    overflow-y: scroll;
+}
